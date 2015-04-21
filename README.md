@@ -1,2 +1,2 @@
 # concrete5.7-bootstrap
-A Bootstrap start theme for Concrete5.7+
+A Bootstrap 3 starter theme for Concrete5.7+
