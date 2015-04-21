@@ -1,0 +1,22 @@
+/* Import bootstrap 3 mixins and variables */
+@import "build/bootstrap-3.3.4/less/variables.less";
+@import "build/bootstrap-3.3.4/less/mixins.less";
+
+/* Import our theme variables. */
+@import "presets/defaults.less";
+
+/* Fonts */
+@import ~"@{preset-fonts-file}";
+
+/* Custom mixins */
+@import "build/mixins.less";
+
+div.ccm-page {
+  @import "build/header.less";
+  @import "build/footer.less";
+  @import "build/common.less";
+  @import "build/home.less";
+  @import "build/full.less";
+  @import "build/right_sidebar.less";
+  @import "build/blocks/autonav.less";
+}
